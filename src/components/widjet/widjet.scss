@@ -1,0 +1,58 @@
+
+.widjet{
+   display: flex;
+   flex: 1;
+   padding: 10px;
+   justify-content: space-between;
+   -webkit-box-shadow: 1px 2px 17px 1px #6439ff; 
+   box-shadow: 1px 2px 17px 1px #6439ff;
+   border-radius: 10px;//arrondir les coins du widjet
+   height: 100px;
+   background-color: rgb(226, 213, 213);
+
+   .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+   }
+
+   .title{
+    font-weight: bold; //grassier le titre du widjet
+    font-size: 14px;
+    color: gray;
+   }
+
+   .counter{
+    font-size: 28px;
+    font-weight: 300;
+   } 
+   .link{
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+    width: max-content;
+    cursor: pointer;
+   }
+
+   .pourcentage{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: green;
+
+    &.positive  {
+        color: rgb(31, 136, 31);
+    }
+
+    &.negative {
+        color: red;
+    }
+   }
+
+    .icon{
+        font-size: 18px;
+        padding: 5px;
+        background-color:  rgb(31, 136, 31);
+        border-radius: 5px;
+        align-items: flex-end;
+    }
+}

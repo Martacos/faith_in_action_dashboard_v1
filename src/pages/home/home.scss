@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    background-color: #c0bcce;//home background color
+    .homeContainer{
+        flex: 6;
+    }
+
+    .widjets, .charts{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        
+    }
+
+    .charts{
+        // flex-direction: column;
+        padding: 5px 20px;
+        
+    }
+
+    
+
+}
